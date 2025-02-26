@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/anni1526/beginner-html-site-styled.git'
+                git branch: 'gh-pages', url: 'https://github.com/anni1526/beginner-html-site-styled.git'
             }
         }
 
